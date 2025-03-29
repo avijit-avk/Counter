@@ -1,0 +1,28 @@
+#counter{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin: 10px;
+}
+#value{
+    font-size: 50px;
+    padding: 10px;
+    margin: 10px;
+}
+.action button{
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px;
+}
+#reset{
+    background-color: blue;
+}
+#decrease{
+    background-color: red;
+}
+#increase{
+    background-color: green;
+}
